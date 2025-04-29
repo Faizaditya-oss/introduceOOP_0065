@@ -15,5 +15,10 @@ public :
 
 };
 int main () {
+   Mahasiswa mhs;
+   mhs.nim = 2024;
+   mhs.nama = "Faiz";
+   mhs.nilai = 90.5;
 
+   mhs.printData();
 }
